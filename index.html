@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: blanchedalmond;
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        /* .login-form{
+            border: 2px solid black; 
+        } */
+
+        .login-form{
+            background-color: rgb(237, 215, 196);
+            padding: 18px;
+            box-shadow: 10px 10px 10px rgb(217, 208, 217);
+        }
+
+        .login-form input{
+            width: 100%;
+            padding:8px;
+            margin: 10px 0px;
+            margin-left:-8px;
+            border: none;
+        }
+
+    
+
+        .login-form button{
+            padding: 5px;
+            width: 100px;
+            margin: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+        }
+
+        .login-form button:hover{
+            cursor: pointer;
+            background-color:rgb(224, 248, 186);
+        }
+        
+        @media only screen and (max-width:550px) {
+            .login-form{
+            background-color: rgb(246, 196, 152);
+            padding: 18px;
+            box-shadow: 10px 10px 10px rgb(217, 208, 217);
+            margin:20px;
+        }
+
+
+        .login-form input{
+            width: 100%;
+            padding:8px;
+            margin: 10px 0px;
+            margin-left:-8px;
+            border: none;
+        }
+
+        .login-form button{
+            padding: 5px;
+            width: 100px;
+            margin: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+        }
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="login-form">
+        <h2>Login</h2>
+        <form action="#">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
